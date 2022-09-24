@@ -23,8 +23,11 @@ body{
 
 }
 .box1-2{
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+    background-blend-mode: multiply;
     display: flex;
     align-items: center;
+    border-radius: 10px;
     height: 35vh;
     width: 19vw;
 }
@@ -51,8 +54,8 @@ body{
 }
 
 .rotlo{
-    background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
-    border: 2px solid black;
+    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    border: 1px solid black;
     border-radius: 50%;
     height: 5px;
     width: 5px;
@@ -66,30 +69,42 @@ body{
 }
 .pantalla{
     background-color: gray;
-    height: 25vh;
-    width: 15vw;
+    height: 200px;
+    width: 240px;
     display: flex;
     align-items: center;
     border: solid  3px;
     box-shadow: inset 0 0 4px 4px black;
+    justify-content: center;
+    font-size: 40px;
 }
 
-.nombre{
-    background-color: blueviolet;
-    height: 5vh;
+.box-nombre{
     display: flex;
-    justify-content: center;
+    height: 40px;
+}
+.box-nombre1{
+    width: 150px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 5px;
     font-style: italic;
+    font-size: 20px;
     font-weight: bold;
-    font-size: 25px;
+    text-shadow:0 0  3px;
+
+}
+.box-nombre2{
+    width: 150px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 5px;
 }
 
-.nintendo{
-    background-color: brown;
-    display: flex;
-    justify-content: center;
-    height: 3vh;
-}
+
+
 
 .box2{
     display: flex;
@@ -104,6 +119,8 @@ body{
     background-color: yellow;
     height: 17vh;
     width: 20vw;
+    display: grid;
+    
 }
 
 
@@ -124,7 +141,84 @@ body{
     border-radius: 0 0 30px 30px;
 }
 
-.C{
-    color: aqua;
+
+.c{
+    color:#aa2058;
+    font-size: 25px;
+    font-weight: bold;
+    transform:rotateZ(+10deg)
+  }
+  .o{
+    color:#605bd9;
+    font-size:25px;
+    font-weight: bold;
+    transform:rotateZ(-10deg)
+  }
+  .l{
+    color:#78b930;
+    transform:rotateZ(-10deg);
+    font-weight: bold;
+    font-size: 25px;
+  }
+  .o1{
+    color:#4c36c9;
+    font-size:25px;
+    font-weight: bold;
+    transform:rotateZ(+10deg);
+  }
+  .r{
+    color:#be2424;
+    font-size: 25px;
+    font-weight: bold;
+    transform:rotateZ(-10deg);
+}
+
+.box-nintendo{
+    height: 30px;
+    width: 305px;
+    display: flex;
+    justify-content: center;
 
 }
+
+.nintendo{
+    background-image: linear-gradient(60deg, #96deda 0%, #50c9c3 100%);
+    height: 20px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    border: #323232 solid 1px;
+    box-shadow:inset 0 0 2px;
+    border-radius: 30px;
+    text-shadow: 0 0 1px;
+    font-weight: bold;
+}
+
+.direccion{
+    width: 100px;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+
+}
+
+.direccion1{
+    background-color: #1C1C1C;
+    border: #1C1C1C 2px solid;
+    border-radius: 5px 5px 5px 5px;
+
+    grid-column: 2/3;
+    grid-row: 1/4;
+}
+.direccion2{
+
+    background-color: #1C1C1C;
+    grid-column: 1/4;
+    grid-row: 2/3;
+    border: #1C1C1C solid 2px;
+    border-radius: 5px 5px 5px 5px;
+    
+}
+
