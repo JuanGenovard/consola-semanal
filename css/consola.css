@@ -1,0 +1,130 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cuerpo{
+    background-image: linear-gradient(60deg, #96deda 0%, #50c9c3 100%);
+    height: 80vh;
+    width: 20vw;
+    border: 2px solid black;
+    border-radius: 10px 10px 30px 30px;
+    box-shadow:4px 4px;
+}
+
+.box1{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.box1-2{
+    display: flex;
+    align-items: center;
+    height: 35vh;
+    width: 19vw;
+}
+
+.power{
+
+    height: 20vh;
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+
+
+}
+
+.led{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 10vh;
+
+
+}
+
+.rotlo{
+    background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+    border: 2px solid black;
+    border-radius: 50%;
+    height: 5px;
+    width: 5px;
+    
+}
+
+.power2{
+
+    height: 10vh;
+    font-size: xx-small;
+}
+.pantalla{
+    background-color: gray;
+    height: 25vh;
+    width: 15vw;
+    display: flex;
+    align-items: center;
+    border: solid  3px;
+    box-shadow: inset 0 0 4px 4px black;
+}
+
+.nombre{
+    background-color: blueviolet;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.nintendo{
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    height: 3vh;
+}
+
+.box2{
+    display: flex;
+    justify-content: center;
+}
+
+.bot-izq{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    height: 17vh;
+    width: 20vw;
+}
+
+
+.bot-der{
+    background-color: beige;
+    height: 17vh;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box3{
+    background-color: chartreuse;
+    height: 13vh;
+    border: solid red 1px;
+    border-radius: 0 0 30px 30px;
+}
+
+.C{
+    color: aqua;
+
+}
