@@ -86,6 +86,15 @@ body {
     text-shadow: #1C1C1C 2px 2px;
 }
 
+.video{
+
+    height: 200px;
+    width: 200px;
+}
+
+
+
+
 .box-nombre {
     display: flex;
     height: 40px;
@@ -198,12 +207,12 @@ body {
     width: 70px;
     display: flex;
     justify-content: center;
-    border: #20a7a0 solid 1px;
+    border: #0c3483  solid 1px;
     box-shadow: inset 2px 2px;
     border-radius: 30px;
     text-shadow: 1px 1px;
     font-weight: bold;
-    color: #2ec4bc;
+    color: #0c3483 ;
 }
 
 .direccion {
@@ -218,24 +227,49 @@ body {
 }
 
 .direccion1 {
-    background-color: #3F3F3F;
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
     border: #1C1C1C 2px solid;
     border-radius: 5px 5px 5px 5px;
     box-shadow: 1px 1px;
     grid-column: 2/3;
     grid-row: 1/4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
 }
+
+.flexa1{
+    transform: rotateZ(30deg);
+
+}
+
+.flexa2{
+    transform: rotateZ(90deg);
+}
+
+
 
 .direccion2 {
 
-    background-color: #3F3F3F;
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
     grid-column: 1/4;
     grid-row: 2/3;
     border: #1C1C1C solid 2px;
     border-radius: 5px 5px 5px 5px;
     box-shadow: 1px 1px;
+    display: flex;
+    justify-content: center;align-items: center;
 
 
+}
+
+.enmedio{
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    border: #323232 solid;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
 }
 
 .a-b {
@@ -253,7 +287,7 @@ body {
 }
 
 .a {
-    background-color: #3F3F3F;
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
     width: 40px;
     height: 40px;
     border: 1px solid black;
@@ -268,7 +302,7 @@ body {
 }
 
 .b {
-    background-color: #3F3F3F;
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
     width: 40px;
     height: 40px;
     border: 1px solid black;
@@ -290,7 +324,7 @@ body {
 }
 
 .select {
-    background-color: #3F3F3F;
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
     height: 20px;
     width: 50px;
     display: flex;
@@ -300,11 +334,12 @@ body {
     border: #3F3F3F solid 1px;
     border-radius: 50px;
     box-shadow: 1px 1px;
+    text-shadow: #323232 1px 1px;
 
 }
 
 .start {
-    background-color: #3F3F3F;
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
     height: 20px;
     width: 50px;
     display: flex;
@@ -314,6 +349,7 @@ body {
     border: #3F3F3F solid 1px;
     border-radius: 50px;
     box-shadow: 1px 1px;
+    text-shadow: #323232 1px 1px;
 }
 
 .altavoz {
@@ -324,6 +360,7 @@ body {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     margin-right: 10px;
+    
 
 }
 
@@ -336,6 +373,8 @@ body {
     border-radius: 50%;
     width: 10px;
     height: 10px;
+    border: #0c3483 solid 2px;
+
 
 }
 
@@ -346,6 +385,8 @@ body {
     border-radius: 50%;
     width: 10px;
     height: 10px;
+    border: #0c3483 solid 2px;
+
 
 }
 
@@ -356,6 +397,7 @@ body {
     border-radius: 50%;
     width: 10px;
     height: 10px;
+    border: #0c3483 solid 2px;
 
 }
 
@@ -366,6 +408,7 @@ body {
     border-radius: 50%;
     width: 10px;
     height: 10px;
+    border: #0c3483 solid 2px;
 
 }
 
@@ -376,6 +419,7 @@ body {
     border-radius: 50%;
     width: 10px;
     height: 10px;
+    border: #0c3483 solid 2px;
 
 }
 
@@ -386,6 +430,7 @@ body {
     border-radius: 50%;
     width: 10px;
     height: 10px;
+    border: #0c3483 solid 2px;
 
 }
 
@@ -396,6 +441,7 @@ body {
     border-radius: 50%;
     width: 10px;
     height: 10px;
+    border: #0c3483 solid 2px;
 
 }
 
@@ -406,6 +452,7 @@ body {
     border-radius: 50%;
     width: 10px;
     height: 10px;
+    border: #0c3483 solid 2px;
 }
 
 .circulito10 {
@@ -415,6 +462,7 @@ body {
     border-radius: 50%;
     width: 10px;
     height: 10px;
+    border: #0c3483 solid 2px;
 
 }
 
@@ -425,6 +473,8 @@ body {
     border-radius: 50%;
     width: 10px;
     height: 10px;
+    border: #0c3483 solid 2px;
+    
 
 }
 
@@ -436,6 +486,7 @@ body {
     border-radius: 50%;
     width: 10px;
     height: 10px;
+    border: #0c3483 solid 2px;
 
 }
 
@@ -446,4 +497,6 @@ body {
     border-radius: 50%;
     width: 10px;
     height: 10px;
+    border: #0c3483 solid 2px;
+
 }
